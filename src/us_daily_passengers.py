@@ -20,6 +20,7 @@ average_passengers = average_passengers.reindex(index=index)
 
 print("\n\nAverage number of passengers flying per day in a week: ")
 print(average_passengers)
+average_passengers.to_csv("output/average_passengers_flying_per_day_in_a_week.csv")
 print(type(average_passengers))
 
 # plot the graph that shows the average number of passengers flying per day in a week
